@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Styles -->
+<style>
+    #chartdiv {
+        width: 100%;
+        height: 500px
+    }
+
+    .map-marker {
+        /* adjusting for the marker dimensions
+        so that it is centered on coordinates */
+        margin-left: -8px;
+        margin-top: -8px;
+        box-sizing: border-box;
+    }
+
+    .map-marker.map-clickable {
+        cursor: pointer;
+    }
+
+    .pulse {
+        width: 10px;
+        height: 10px;
+        border: 5px solid #f7f14c;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: #716f42;
+        z-index: 2;
+        position: absolute;
+        box-sizing: border-box;
+    }
+
+    .map-marker .dot {
+        border: 15px solid #fff601;
+        background: transparent;
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        border-radius: 70px;
+        height: 50px;
+        width: 50px;
+        -webkit-animation: pulse 3s ease-out;
+        -moz-animation: pulse 3s ease-out;
+        animation: pulse 3s ease-out;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        z-index: 1;
+        opacity: 0;
+        box-sizing: border-box;
+    }
+
+    @-moz-keyframes pulse {
+        0% {
+            -moz-transform: scale(0);
+            opacity: 0.0;
+        }
+        25% {
+            -moz-transform: scale(0);
+            opacity: 0.1;
+        }
+        50% {
+            -moz-transform: scale(0.1);
+            opacity: 0.3;
+        }
+        75% {
+            -moz-transform: scale(0.5);
+            opacity: 0.5;
+        }
+        100% {
+            -moz-transform: scale(1);
+            opacity: 0.0;
+        }
+    }
+
+    @-webkit-keyframes "pulse" {
+        0% {
+            -webkit-transform: scale(0);
+            opacity: 0.0;
+        }
+        25% {
+            -webkit-transform: scale(0);
+            opacity: 0.1;
+        }
+        50% {
+            -webkit-transform: scale(0.1);
+            opacity: 0.3;
+        }
+        75% {
+            -webkit-transform: scale(0.5);
+            opacity: 0.5;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            opacity: 0.0;
+        }
+    }
+</style>
+
+<!-- Resources -->
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/maps.js"></script>
+<script src="russiaLow.js"></script>
+
+<!--<script src="https://www.amcharts.com/lib/3/ammap.js"></script>-->
+<!--<script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>-->
+<!--<script src="https://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js"></script>-->
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+    am4core.ready(function () {
+        // Themes begin
+        am4core.useTheme(am4themes_animated);
+        // Themes end
+
+        // Create map instance
+        var chart = am4core.create("chartdiv", am4maps.MapChart);
+        // Set map definition
+        chart.geodata = am4geodata_russiaLow;
+        // Set projection
+        chart.projection = new am4maps.projections.Miller();
+        // Create map polygon series
+        var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+        // Make map load polygon (like country names) data from GeoJSON // TODO need ?
+        polygonSeries.useGeodata = true;
+        polygonSeries.mapPolygons.template.events.on("hit", function (ev) {
+            chart.zoomToMapObject(ev.target);
+        });
+
+        // Zoom control
+        chart.zoomControl = new am4maps.ZoomControl();
+
+        var homeButton = new am4core.Button();
+        homeButton.events.on("hit", function () {
+            chart.goHome();
+        });
+        homeButton.icon = new am4core.Sprite();
+        homeButton.padding(7, 5, 7, 5);
+        homeButton.width = 30;
+        homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+        homeButton.marginBottom = 10;
+        homeButton.parent = chart.zoomControl;
+        homeButton.insertBefore(chart.zoomControl.plusButton);
+
+        // todo
+        var label = chart.chartContainer.createChild(am4core.Label);
+        label.text = "am4geodata_russiaLow";
+
+        // Configure series
+        var polygonTemplate = polygonSeries.mapPolygons.template;
+        polygonTemplate.strokeOpacity = 0.5;
+        polygonTemplate.nonScalingStroke = true;
+
+        // Configure series tooltip
+        polygonTemplate.tooltipText = "{name}";
+        polygonTemplate.strokeWidth = 0.5;
+
+        // create capital markers
+        var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+
+        // define template
+        var imageSeriesTemplate = imageSeries.mapImages.template;
+        imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+        imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+
+        // set -100 to longitude
+        imageSeries.data = [{
+            "title": "Москва",
+            "latitude": 55.7558,
+            "longitude": -62.377496
+        }, {
+            "title": "Хабаровск",
+            "latitude": 48.2835,
+            "longitude": 35.3463
+        }, {
+            "title": "Комсомольск-на-Амуре",
+            "latitude": 50.549923,
+            "longitude": 37.007948
+        }, {
+            "title": "Краснодар",
+            "latitude": 45.035470,
+            "longitude": -61.024687
+        }, {
+            "title": "Сочи",
+            "latitude": 43.585525,
+            "longitude": -60.276938
+        }, {
+            "title": "Сургут",
+            "latitude": 61.254035,
+            "longitude": -26.603779
+        }, {
+            "title": "Санкт-Петербург",
+            "latitude": 59.938951,
+            "longitude": -69.684365
+        }, {
+            "title": "Калининград",
+            "latitude": 54.710454,
+            "longitude": -78.187267
+        }, {
+            "title": "Когалым",
+            "latitude": 62.264069,
+            "longitude": -25.517239
+        }, {
+            "title": "Шахты",
+            "latitude": 47.709601,
+            "longitude": -59.784203
+        }, {
+            "title": "Тюмень",
+            "latitude": 57.153033,
+            "longitude": -34.465672
+        }, {
+            "title": "Тула",
+            "latitude": 54.193122,
+            "longitude": -62.382652
+        }, {
+            "title": "Томск",
+            "latitude": 57.153033,
+            "longitude": -15.052351
+        }, {
+            "title": "Тобольск",
+            "latitude": 58.201698,
+            "longitude": -31.746238
+        }, {
+            "title": "Симферополь",
+            "latitude": 44.948237,
+            "longitude": -65.899682
+        }, {
+            "title": "Севастополь",
+            "latitude": 44.506902,
+            "longitude": -66.000598
+        }, {
+            "title": "Саратов",
+            "latitude": 51.533103,
+            "longitude": -53.965842
+        }, {
+            "title": "Новокузнецк",
+            "latitude": 53.757547,
+            "longitude": -12.863956
+        }, {
+            "title": "Казань",
+            "latitude": 55.796289,
+            "longitude": -50.891205
+        }, {
+            "title": "Екатиренбург",
+            "latitude": 56.838011,
+            "longitude": -39.402535
+        }, {
+            "title": "Воронеж",
+            "latitude": 51.660781,
+            "longitude": -60.799731
+        }, {
+            "title": "Благовещенск",
+            "latitude": 50.290640,
+            "longitude": 27.527173
+        }, {
+            "title": "Амурск",
+            "latitude": 50.226797,
+            "longitude": 36.910607
+        }, {
+            "title": "Уфа",
+            "latitude": 54.735147,
+            "longitude": -44.041273
+        }];
+
+        // add events to recalculate map position when the map is moved or zoomed
+        chart.events.on("ready", updateCustomMarkers);
+        chart.events.on("mappositionchanged", updateCustomMarkers);
+
+        // this function will take current images on the map and create HTML elements for them
+        function updateCustomMarkers(event) {
+            // go through all of the images
+            imageSeries.mapImages.each(function (image) {
+                // check if it has corresponding HTML element
+                if (!image.dummyData || !image.dummyData.externalElement) {
+                    // create onex
+                    image.dummyData = {
+                        externalElement: createCustomMarker(image)
+                    };
+                }
+                // reposition the element accoridng to coordinates
+                var xy = chart.geoPointToSVG({longitude: image.longitude, latitude: image.latitude});
+                image.dummyData.externalElement.style.top = xy.y + 'px';
+                image.dummyData.externalElement.style.left = xy.x + 'px';
+            });
+        }
+
+        // this function creates and returns a new marker element
+        function createCustomMarker(image) {
+            var chart = image.dataItem.component.chart;
+            // create holder
+            var holder = document.createElement('div');
+            holder.className = 'map-marker';
+            holder.title = image.dataItem.dataContext.title;
+            holder.style.position = 'absolute';
+            // create dot
+            var dot = document.createElement('div');
+            dot.className = 'dot';
+            holder.appendChild(dot);
+            // create pulse
+            var pulse = document.createElement('div');
+            pulse.className = 'pulse';
+            holder.appendChild(pulse);
+            // append the marker to the map container
+            chart.svgContainer.htmlElement.appendChild(holder);
+            return holder;
+        }
+
+    }); // end am4core.ready()
+</script>
+
+<!-- HTML -->
+<div id="chartdiv"></div>
+</body>
+</html>
