@@ -161,9 +161,18 @@
         polygonTemplate.strokeOpacity = 0.5;
         polygonTemplate.nonScalingStroke = true;
 
+        // Create hover state and set alternative fill color
+        var hs = polygonTemplate.states.create("hover");
+        hs.properties.fill = chart.colors.getIndex(1).brighten(-0.1);   // am4core.color("#63ADCC")
+
         // Configure series tooltip
         polygonTemplate.tooltipText = "{name}";
         polygonTemplate.strokeWidth = 0.5;
+
+        // Default color
+        polygonTemplate.fill = am4core.color("#63ADCC");
+        // Selected color
+        polygonTemplate.propertyFields.fill = "fill";
 
         // create capital markers
         var imageSeries = chart.series.push(new am4maps.MapImageSeries());

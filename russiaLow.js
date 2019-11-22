@@ -327,7 +327,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-ZAB",
                     TYPE: "Kray",
                     TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-ZAB"
             }, {
@@ -1294,7 +1295,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-VOR",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-VOR"
             }, {
@@ -2131,7 +2133,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-TYU",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TYU"
             }, {
@@ -2559,7 +2562,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-TUL",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TUL"
             }, {
@@ -2756,7 +2760,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-TOM",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TOM"
             }, {
@@ -2926,7 +2931,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-TT",
                     TYPE: "Respublika",
                     TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TT"
             }, {
@@ -3180,7 +3186,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-SVE",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SVE"
             }, {
@@ -3557,7 +3564,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-SAR",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SAR"
             }, {
@@ -5455,7 +5463,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-ROS",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-ROS"
             }, {
@@ -7557,7 +7566,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-MOS",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-MOS"
             }, {
@@ -7583,7 +7593,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-MOW",
                     TYPE: "Gorod",
                     TYPE_ENG: "City",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-MOW"
             }, {
@@ -8399,7 +8410,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-LEN",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-LEN"
             }, {
@@ -9987,7 +9999,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KDA",
                     TYPE: "Kray",
                     TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KDA"
             }, {
@@ -10877,7 +10890,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KHM",
                     TYPE: "Avtonomnyy Okrug",
                     TYPE_ENG: "Autonomous Province",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KHM"
             }, {
@@ -11660,7 +11674,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KHA",
                     TYPE: "Kray",
                     TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KHA"
             }, {
@@ -11815,7 +11830,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KEM",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KEM"
             }, {
@@ -12815,7 +12831,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KGD",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KGD"
             }, {
@@ -13799,7 +13816,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-SPE",
                     TYPE: "Gorsovet",
                     TYPE_ENG: "City",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SPE"
             }, {
@@ -15330,7 +15348,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-BA",
                     TYPE: "Respublika",
                     TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-BA"
             }, {
@@ -16607,7 +16626,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-AMU",
                     TYPE: "Oblast",
                     TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    CNTRY: "Russia",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-AMU"
             }, {
@@ -16780,7 +16800,8 @@ am4internal_webpackJsonp(["534b"], {
                     id: "RU-KR",
                     CNTRY: "Russia",
                     TYPE: "Oblast",
-                    TYPE_ENG: "Region"
+                    TYPE_ENG: "Region",
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "UA-43"
             },
