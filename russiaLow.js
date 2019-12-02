@@ -323,12 +323,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Забайкальский край",
-                    id: "RU-ZAB",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia",
-                    fill: am4core.color("#5C5CFF")
+                    name: "Забайкальский край"
                 },
                 id: "RU-ZAB"
             }, {
@@ -414,11 +409,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Еврейская автономная область",
-                    id: "RU-YEV",
-                    TYPE: "Avtonomnaya Oblast",
-                    TYPE_ENG: "Autonomous Region",
-                    CNTRY: "Russia"
+                    name: "Еврейская автономная область"
                 },
                 id: "RU-YEV"
             }, {
@@ -506,11 +497,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ярославская область",
-                    id: "RU-YAR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Ярославская область"
                 },
                 id: "RU-YAR"
             }, {
@@ -1182,11 +1169,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ямало-Ненецкий автономный округ",
-                    id: "RU-YAN",
-                    TYPE: "Avtonomnyy Okrug",
-                    TYPE_ENG: "Autonomous Province",
-                    CNTRY: "Russia"
+                    name: "Ямало-Ненецкий автономный округ"
                 },
                 id: "RU-YAN"
             }, {
@@ -1292,10 +1275,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Воронежская область",
-                    id: "RU-VOR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-VOR"
@@ -1485,11 +1464,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Вологодская область",
-                    id: "RU-VLG",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Вологодская область"
                 },
                 id: "RU-VLG"
             }, {
@@ -1639,11 +1614,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Волгоградская область",
-                    id: "RU-VGG",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Волгоградская область"
                 },
                 id: "RU-VGG"
             }, {
@@ -1731,11 +1702,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Владимирская область",
-                    id: "RU-VLA",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Владимирская область"
                 },
                 id: "RU-VLA"
             }, {
@@ -1843,11 +1810,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ульяновская область",
-                    id: "RU-ULY",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Ульяновская область"
                 },
                 id: "RU-ULY"
             }, {
@@ -1955,11 +1918,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Удмуртская Республика",
-                    id: "RU-UD",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Удмуртская Республика"
                 },
                 id: "RU-UD"
             }, {
@@ -2130,10 +2089,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Тюменская область",
-                    id: "RU-TYU",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TYU"
@@ -2263,11 +2218,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Тверская область",
-                    id: "RU-TVE",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Тверская область"
                 },
                 id: "RU-TVE"
             }, {
@@ -2475,11 +2426,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Тыва",
-                    id: "RU-TY",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Тыва"
                 },
                 id: "RU-TY"
             }, {
@@ -2559,10 +2506,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Тульская область",
-                    id: "RU-TUL",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TUL"
@@ -2757,10 +2700,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Томская область",
-                    id: "RU-TOM",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TOM"
@@ -2928,10 +2867,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Республика Татарстан",
-                    id: "RU-TT",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-TT"
@@ -3005,11 +2940,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Тамбовская область",
-                    id: "RU-TAM",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Тамбовская область"
                 },
                 id: "RU-TAM"
             }, {
@@ -3183,10 +3114,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Свердловская область",
-                    id: "RU-SVE",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SVE"
@@ -3304,11 +3231,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ставропольский край",
-                    id: "RU-STA",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Ставропольский край"
                 },
                 id: "RU-STA"
             }, {
@@ -3401,11 +3324,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Смоленская область",
-                    id: "RU-SMO",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Смоленская область"
                 },
                 id: "RU-SMO"
             }, {
@@ -3561,10 +3480,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Саратовская область",
-                    id: "RU-SAR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SAR"
@@ -3672,11 +3587,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Самарская область",
-                    id: "RU-SAM",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Самарская область"
                 },
                 id: "RU-SAM"
             }, {
@@ -4014,11 +3925,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Сахалинская область",
-                    id: "RU-SAK",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Сахалинская область"
                 },
                 id: "RU-SAK"
             }, {
@@ -5190,11 +5097,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Саха",
-                    id: "RU-SA",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Саха"
                 },
                 id: "RU-SA"
             }, {
@@ -5285,11 +5188,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Рязанская область",
-                    id: "RU-RYA",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Рязанская область"
                 },
                 id: "RU-RYA"
             }, {
@@ -5460,10 +5359,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Ростовская область",
-                    id: "RU-ROS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-ROS"
@@ -5567,11 +5462,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Псковская область",
-                    id: "RU-PSK",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Псковская область"
                 },
                 id: "RU-PSK"
             }, {
@@ -5805,11 +5696,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Приморский край",
-                    id: "RU-PRI",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Приморский край"
                 },
                 id: "RU-PRI"
             }, {
@@ -5968,11 +5855,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Пермский край",
-                    id: "RU-PER",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Пермский край"
                 },
                 id: "RU-PER"
             }, {
@@ -6068,11 +5951,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Пензенская область",
-                    id: "RU-PNZ",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Пензенская область"
                 },
                 id: "RU-PNZ"
             }, {
@@ -6279,11 +6158,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Оренбургская область",
-                    id: "RU-ORE",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Оренбургская область"
                 },
                 id: "RU-ORE"
             }, {
@@ -6356,11 +6231,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Орловская область",
-                    id: "RU-ORL",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Орловская область"
                 },
                 id: "RU-ORL"
             }, {
@@ -6541,11 +6412,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Омская область",
-                    id: "RU-OMS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Омская область"
                 },
                 id: "RU-OMS"
             }, {
@@ -6710,11 +6577,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Новосибирская область",
-                    id: "RU-NVS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Новосибирская область"
                 },
                 id: "RU-NVS"
             }, {
@@ -6824,11 +6687,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Новгородская область",
-                    id: "RU-NGR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Новгородская область"
                 },
                 id: "RU-NGR"
             }, {
@@ -6883,11 +6742,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Северная Осетия",
-                    id: "RU-SE",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Северная Осетия"
                 },
                 id: "RU-SE"
             }, {
@@ -7024,11 +6879,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Нижегородская область",
-                    id: "RU-NIZ",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Нижегородская область"
                 },
                 id: "RU-NIZ"
             }, {
@@ -7289,11 +7140,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ненецкий автономный округ",
-                    id: "RU-NEN",
-                    TYPE: "Avtonomnyy Okrug",
-                    TYPE_ENG: "Autonomous Province",
-                    CNTRY: "Russia"
+                    name: "Ненецкий автономный округ"
                 },
                 id: "RU-NEN"
             }, {
@@ -7439,11 +7286,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Мурманская область",
-                    id: "RU-MUR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Мурманская область"
                 },
                 id: "RU-MUR"
             }, {
@@ -7563,10 +7406,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Московская область",
-                    id: "RU-MOS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-MOS"
@@ -7590,10 +7429,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Москва",
-                    id: "RU-MOW",
-                    TYPE: "Gorod",
-                    TYPE_ENG: "City",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-MOW"
@@ -7691,11 +7526,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Мордовия",
-                    id: "RU-MO",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Мордовия"
                 },
                 id: "RU-MO"
             }, {
@@ -7782,11 +7613,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Марий Эл",
-                    id: "RU-ME",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Марий Эл"
                 },
                 id: "RU-ME"
             }, {
@@ -8147,11 +7974,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Магаданская область",
-                    id: "RU-MAG",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Магаданская область"
                 },
                 id: "RU-MAG"
             }, {
@@ -8228,10 +8051,7 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Липецкая область",
-                    id: "RU-LIP",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-LIP"
             }, {
@@ -8407,10 +8227,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Ленинградская область",
-                    id: "RU-LEN",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-LEN"
@@ -8494,11 +8310,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Курская область",
-                    id: "RU-KRS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Курская область"
                 },
                 id: "RU-KRS"
             }, {
@@ -8618,11 +8430,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Курганская область",
-                    id: "RU-KGN",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Курганская область"
                 },
                 id: "RU-KGN"
             }, {
@@ -9790,11 +9598,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Красноярский край",
-                    id: "RU-KYA",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Красноярский край"
                 },
                 id: "RU-KYA"
             }, {
@@ -9996,10 +9800,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Краснодарский край",
-                    id: "RU-KDA",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KDA"
@@ -10123,11 +9923,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Костромская область",
-                    id: "RU-KOS",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Костромская область"
                 },
                 id: "RU-KOS"
             }, {
@@ -10375,11 +10171,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Коми",
-                    id: "RU-KO",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Коми"
                 },
                 id: "RU-KO"
             }, {
@@ -10565,11 +10357,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Кировская область",
-                    id: "RU-KIR",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Кировская область"
                 },
                 id: "RU-KIR"
             }, {
@@ -10887,10 +10675,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Ханты-Мансийский автономный округ",
-                    id: "RU-KHM",
-                    TYPE: "Avtonomnyy Okrug",
-                    TYPE_ENG: "Autonomous Province",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KHM"
@@ -11013,11 +10797,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Хакасия",
-                    id: "RU-KK",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Хакасия"
                 },
                 id: "RU-KK"
             }, {
@@ -11671,13 +11451,8 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Хабаровский край",
-                    id: "RU-KHA",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
-                id: "RU-KHA"
             }, {
                 type: "Feature",
                 geometry: {
@@ -11827,10 +11602,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Кемеровская область",
-                    id: "RU-KEM",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KEM"
@@ -11991,11 +11762,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Карелия",
-                    id: "RU-KR",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Карелия"
                 },
                 id: "RU-KR"
             }, {
@@ -12062,11 +11829,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Карачаево-Черкесская Республика",
-                    id: "RU-KC",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Карачаево-Черкесская Республика"
                 },
                 id: "RU-KC"
             }, {
@@ -12539,11 +12302,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Камчатский край",
-                    id: "RU-KAM",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Камчатский край"
                 },
                 id: "RU-KAM"
             }, {
@@ -12621,11 +12380,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Калужская область",
-                    id: "RU-KLU",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Калужская область"
                 },
                 id: "RU-KLU"
             }, {
@@ -12774,11 +12529,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Калмыкия",
-                    id: "RU-KL",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Калмыкия"
                 },
                 id: "RU-KL"
             }, {
@@ -12828,10 +12579,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Калининградская область",
-                    id: "RU-KGD",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-KGD"
@@ -12882,11 +12629,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Кабардино-Балкарская Республика",
-                    id: "RU-KB",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Кабардино-Балкарская Республика"
                 },
                 id: "RU-KB"
             }, {
@@ -12960,11 +12703,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Ивановская область",
-                    id: "RU-IVA",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Ивановская область"
                 },
                 id: "RU-IVA"
             }, {
@@ -13460,11 +13199,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Иркутская область",
-                    id: "RU-IRK",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Иркутская область"
                 },
                 id: "RU-IRK"
             }, {
@@ -13505,11 +13240,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Ингушетия",
-                    id: "RU-IN",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Ингушетия"
                 },
                 id: "RU-IN"
             }, {
@@ -13655,11 +13386,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Алтайский край",
-                    id: "RU-GA?",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Алтайский край"
                 },
                 id: "RU-GA?"
             }, {
@@ -13772,11 +13499,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Дагестан",
-                    id: "RU-DA",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Дагестан"
                 },
                 id: "RU-DA"
             }, {
@@ -13813,10 +13536,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Санкт-Петербург",
-                    id: "RU-SPE",
-                    TYPE: "Gorsovet",
-                    TYPE_ENG: "City",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-SPE"
@@ -13889,11 +13608,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Чувашская Республика",
-                    id: "RU-CU",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Чувашская Республика"
                 },
                 id: "RU-CU"
             }, {
@@ -14401,11 +14116,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Чукотский автономный округ",
-                    id: "RU-CHU",
-                    TYPE: "Avtonomnyy Okrug",
-                    TYPE_ENG: "Autonomous Province",
-                    CNTRY: "Russia"
+                    name: "Чукотский автономный округ"
                 },
                 id: "RU-CHU"
             }, {
@@ -14611,11 +14322,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Челябинская область",
-                    id: "RU-CHE",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Челябинская область"
                 },
                 id: "RU-CHE"
             }, {
@@ -14678,11 +14385,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Чеченская Республика",
-                    id: "RU-CE",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Чеченская Республика"
                 },
                 id: "RU-CE"
             }, {
@@ -14969,11 +14672,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Бурятия",
-                    id: "RU-BU",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
+                    name: "Республика Бурятия"
                 },
                 id: "RU-BU"
             }, {
@@ -15058,11 +14757,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Брянская область",
-                    id: "RU-BRY",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Брянская область"
                 },
                 id: "RU-BRY"
             }, {
@@ -15148,11 +14843,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Белгородская область",
-                    id: "RU-BEL",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Белгородская область"
                 },
                 id: "RU-BEL"
             }, {
@@ -15345,10 +15036,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Республика Башкортостан",
-                    id: "RU-BA",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-BA"
@@ -15464,11 +15151,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Астраханская область",
-                    id: "RU-AST",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Астраханская область"
                 },
                 id: "RU-AST"
             }, {
@@ -16290,11 +15973,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Архангельская область",
-                    id: "RU-ARK",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia"
+                    name: "Архангельская область"
                 },
                 id: "RU-ARK"
             }, {
@@ -16623,10 +16302,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Амурская область",
-                    id: "RU-AMU",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
-                    CNTRY: "Russia",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "RU-AMU"
@@ -16779,11 +16454,7 @@ am4internal_webpackJsonp(["534b"], {
                     ]
                 },
                 properties: {
-                    name: "Республика Алтай",
-                    id: "RU-ALT",
-                    TYPE: "Kray",
-                    TYPE_ENG: "Territory",
-                    CNTRY: "Russia"
+                    name: "Республика Алтай"
                 },
                 id: "RU-ALT"
             }, {
@@ -16797,10 +16468,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Республика Крым",
-                    id: "RU-KR",
-                    CNTRY: "Russia",
-                    TYPE: "Oblast",
-                    TYPE_ENG: "Region",
                     fill: am4core.color("#5C5CFF")
                 },
                 id: "UA-43"
@@ -16880,10 +16547,6 @@ am4internal_webpackJsonp(["534b"], {
                 },
                 properties: {
                     name: "Республика Адыгея",
-                    id: "RU-AD",
-                    TYPE: "Respublika",
-                    TYPE_ENG: "Republic",
-                    CNTRY: "Russia"
                 },
                 id: "RU-AD"
             }]
